@@ -1,0 +1,15 @@
+\int\frac{dx}{x(1+x^2)}
+\int\frac{1\times dx}{x(1+x^2)}\\\\
+\int\frac{[(1+x^2)-x^2]\times dx}{x(1+x^2)}\\\\
+\int\frac{(1+x^2)dx}{x(1+x^2)}-\int\frac{x^2 dx}{x(1+x^2)}\\\\
+\int\frac{\cancel{(1+x^2)}dx}{x\cancel{(1+x^2)}}-\int\frac{x^{\cancel{2}} dx}{\cancel{x}(1+x^2)}\\\\
+\int\frac{dx}{x}-\int\frac{xdx}{1+x^2}\\\\
+\int\frac{dx}{x}-\frac{1}{2}\int\frac{2xdx}{1+x^2}\\\\
+Assumption:
+Let\ 1+x^2=z\\
+\therefore d(1+x^2)=dz\\
+\ 2xdx=dz
+\int\frac{dx}{x}-\frac{1}{2}\int\frac{dz}{z}\\\\
+\ln|x|-\frac{1}{2}\ln|z|+\ln A\\\\
+\ln|x|-\ln|\sqrt{z}|+\ln A\\\\
+\ln|\frac{Ax}{\sqrt{z}}|=\ln|\frac{Ax}{\sqrt{1+x^2}}|

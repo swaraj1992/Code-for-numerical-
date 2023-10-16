@@ -1,0 +1,14 @@
+\int\frac{x^3dx}{\sqrt{x^2+25}}
+\int\frac{x^2\times xdx}{\sqrt{x^2+25}}
+x^2+25=z^2\ \&\ x^2=z^2-25
+d(x^2+25) = d(z^2)\\
+\implies 2xdx=2zdz\\
+\implies xdx=zdz
+\int\frac{(z^2-25)\times zdz}{\sqrt{z^2}}
+\int\frac{(z^2-25)\times\cancel{z}dz}{\cancel{z}}\\\\
+\implies\int(z^2-25)dz
+\frac{z^3}{3}-25z+A\\
+\implies z(\frac{z^2}{3}-25)+A\\
+\implies \frac{z}{3}(z^2-75)+A\\
+\implies \frac{\sqrt{x^2+25}}{3}(x^2+25-75)+A\\
+\implies \frac{\sqrt{x^2+25}}{3}(x^2-50)+A\\

@@ -1,0 +1,15 @@
+\int\frac{(x+1)dx}{x(1+xe^x)}\\\\
+\int\frac{(x+1)e^xdx}{xe^x(1+xe^x)}\\\\
+1+xe^x =z\ \&\ xe^x=z-1\\
+d(1+xe^x)=dz\\
+d(1)+d(xe^x)=dz\\
+0+e^x dx+xd(e^x)=dz\\
+0+e^x dx+xe^x dx=dz\\
+(1+x)e^x dx=dz
+\int\frac{dz}{(z-1)z}\\
+\int\frac{[z-(z-1)]dz}{(z-1)z}
+\int\frac{zdz}{(z-1)z}-\int\frac{(z-1)dz}{(z-1)z}
+\int\frac{dz}{(z-1)}-\int\frac{dz}{z}
+\ln|z-1|-\ln|z|+\ln A
+\ln|\frac{A(z-1)}{z}|
+\ln|\frac{Axe^x}{1+xe^x}|
