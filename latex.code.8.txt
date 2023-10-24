@@ -1,0 +1,23 @@
+\int\frac{\sqrt{x+1}+1}{\sqrt{x+1}-1}dx
+x+1 = z^2\\
+\implies d(x+1)=d(z^2)\\
+\implies dx=2zdz
+
+\int\frac{z+1}{z-1}\times 2zdz\\
+\implies 2\int\frac{z-1+2}{z-1}\times zdz\\
+\implies 2[\int\frac{z-1+2}{z-1}\times zdz]\\
+\implies 2[\int\frac{z-1}{z-1}\times zdz+2\int\frac{zdz}{z-1}]\\
+\implies 2\int zdz+4\int\frac{zdz}{z-1}\\
+\implies 2\times \frac{z^2}{2}+4\int\frac{zdz}{z-1}\\
+\implies z^2+4\int\frac{zdz}{z-1}\\
+
+z-1 = y\\
+\therefore z=y+1\\
+\& \ dz = dy
+
+\implies z^2+4\int\frac{(y+1)dy}{y}\\
+\implies z^2+4[\int dy+\int\frac{dy}{y}]\\
+\implies z^2+4[y+\ln|y|]+A\\
+\implies z^2+4[z-1+\ln|z-1|]+A\\
+\implies x+1+4[\sqrt{x+1}-1+\ln|\sqrt{x+1}-1|]+A\\
+\implies x+4\sqrt{x+1}+4\ln|\sqrt{x+1}-1|-3+A

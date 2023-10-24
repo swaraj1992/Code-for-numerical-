@@ -1,0 +1,13 @@
+\int\frac{\sqrt{x}dx}{\sqrt{x}-2}
+x=z^2\ \therefore \sqrt{x}=z\\
+\implies dx=2zdz
+\int\frac{2z\times zdz}{z-2}\\\\
+\implies 2\int\frac{z^2dz}{z-2}\\\\
+\implies 2\int\frac{z^2-4+4}{z-2}dz\\\\
+\implies 2\int\frac{z^2-4}{z-2}dz+2\int\frac{4}{z-2}dz\\\\
+\implies 2\int\frac{(z-2)(z+2)}{(z-2)}dz+8\int\frac{dz}{z-2}\\\\
+\implies 2\int(z+2)dz+8\int\frac{d(z-2)}{z-2}\\\\
+\implies 2\int zdz+4\int dz+8\int\frac{d(z-2)}{z-2}\\\\
+\implies 2\times\frac{z^2}{2}+4z+8\ln|z-2|+A\\
+\implies z^2+4z+8\ln|z-2|+A\\
+\implies x+4\sqrt{x}+8\ln|\sqrt{x}-2|+A\\
