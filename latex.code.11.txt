@@ -1,0 +1,16 @@
+\int\frac{dx}{(e^x+1)}\\
+\int\frac{e^{-x}dx}{e^{-x}(e^x+1)}\\
+\implies\int\frac{e^{-x}dx}{e^{-x}e^x+e^{-x}}\\
+\implies\int\frac{e^{-x}dx}{1+e^{-x}}\\
+
+z=1+e^{-x}\\
+\implies dz=d(1+e^{-x})\\
+\implies dz=e^{-x}(-dx)\\
+\implies -dz=e^{-x}dx
+
+\int\frac{-dz}{z}\\
+\implies -\int\frac{dz}{z}\\
+\implies -\ln|z|+\ln A\\
+\implies \ln|\frac{A}{z}|\\
+\implies \ln|\frac{A}{1+e^{-x}}|\\\\
+\implies \ln|\frac{Ae^x}{1+e^{x}}|\\

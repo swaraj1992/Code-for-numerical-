@@ -1,0 +1,14 @@
+\int\frac{(1+x)^2}{1+x^2}dx
+
+\int\frac{1+x^2+2x}{1+x^2}dx\\\\
+\implies\int\frac{1+x^2}{1+x^2}dx+\int\frac{2xdx}{1+x^2}\\
+\implies\int dx+\int\frac{2xdx}{1+x^2}\\
+
+1+x^2=z\\
+\therefore d(1+x^2)=dz\\
+\implies 2xdx=dz
+
+\int dx+\int\frac{2xdx}{1+x^2}\\
+\implies x+\int\frac{dz}{z}\\
+\implies x+\ln|z|+A\\
+\implies x+\ln|1+x^2|+A\\
