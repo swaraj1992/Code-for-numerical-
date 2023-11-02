@@ -1,24 +1,21 @@
-\int\frac{dx}{\sqrt{x-x^2}}
-\implies\int\frac{2dx}{2\sqrt{x-x^2}}\\
-\implies\int\frac{2dx}{\sqrt{4x-4x^2}}\\
-\implies\int\frac{2dx}{\sqrt{1-1+4x-4x^2}}\\
-\implies\int\frac{2dx}{\sqrt{1-(4x^2-4x+1)}}\\
-\implies\int\frac{2dx}{\sqrt{1-(2x-1)^2}}\\
+\int\frac{dx}{(x+\sqrt{x^2-1})^2}
+\int(\frac{1}{x+\sqrt{x^2-1}})^2dx
 
-2x-1=z\\
-\therefore d(2x-1)=dz\\
-\implies 2dx=dz\\\\
-\implies dx=\frac{dz}{2}
+\implies\int(\frac{x-\sqrt{x^2-1}}{(x+\sqrt{x^2-1})(x-\sqrt{x^2-1})})^2dx\\
+\implies\int\frac{(x-\sqrt{x^2-1})^2}{(x^2-(x^2-1))^2}dx\\
+\implies\int(x^2-2x\sqrt{(x^2-1)}+x^2-1)dx\\
+\implies\int(2x^2-1-2x\sqrt{x^2-1})dx\\
+\implies 2\int x^2dx-\int dx- 2\int x\sqrt{x^2-1}dx\\
+\implies \frac{2x^3}{3}-x-2\int x\sqrt{x^2-1}dx
 
-\int\frac{2}{\sqrt{1-z^2}}\times\frac{dz}{2}\\\\
-\implies\int\frac{dz}{\sqrt{1-z^2}}\\
+x^2-1=z^2\\
+\implies d(x^2-1)=d(z^2)\\
+\implies 2xdx=2zdz\\
+\implies xdx=zdz\\
 
-z=\sin\theta\\
-\therefore dz=\cos\theta d\theta\\
-\&\ \sqrt{1-z^2}=\sqrt{1-\sin^2\theta}=\cos\theta\\\\
-\therefore \frac{dz}{\sqrt{1-z^2}}=\frac{\cos\theta d\theta}{\cos\theta}=d\theta
+\int x\sqrt{x^2-1}dx\\
+\implies \int z^2dz\\
+\implies \frac{z^3}{3}\\
+\implies \frac{(x^2-1)^\frac{3}{2}}{3}\\
 
-\int d\theta\\
-\implies \theta+A\\
-\implies \sin^{-1}z+A\\
-\implies \sin^{-1}(2x-1)+A
+\implies \frac{2x^3}{3}-x-\frac{2(x^2-1)^\frac{3}{2}}{3}+A
